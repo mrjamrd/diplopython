@@ -1,10 +1,13 @@
 # Crear funciones en python
 """
 Crear un funcion en python
+def nombredeLaFuncion(parametros):
+    # codigo
 
+nombredeLaFuncion(mi_parametros)
 """
-def PrimeraFuncion():
-    print("Hola desde la funcion")
+def PrimeraFuncion(nombre):
+    print(f"Mi nombres {nombre} ")
 
-
-PrimeraFuncion()
+PrimeraFuncion("Jose Armando")
+PrimeraFuncion("Gibely")
