@@ -1,5 +1,5 @@
 """
-Crear lista
+Crear tupla
 """
 
 nombre = ("Jose", "Armando", "Jeralmy", "Emil","Carlos")
