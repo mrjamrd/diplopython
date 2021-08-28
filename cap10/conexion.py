@@ -1,11 +1,12 @@
 """
-Conexion de base de datos 
+Conexion de base de datos
 
 importar el sqlite3
 
 conexion = sqlite3.connect("prueba.db")
 cursos = conexion.cursor()
 cursor.execute()
+conexion.commit()
 conexion.close()
 
 """
@@ -24,13 +25,13 @@ cursor.execute("CREATE TABLE IF NOT EXISTS productos(" +
 conexion.commit()
 
 
-## Insertar datos 
+## Insertar datos
 
 cursor.execute("INSERT INTO productos VALUES (null, 'primir producto', 'Descripcion de producto',505)")
 conexion.commit()
 
 
-##selecionar 
+##selecionar
 cursor.execute("SELECT * FROM productos;")
 productos = cursor.fetchall()
 for item in productos:
